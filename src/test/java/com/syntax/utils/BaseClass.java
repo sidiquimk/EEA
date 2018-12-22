@@ -26,6 +26,7 @@ public class BaseClass {
 				System.setProperty("webdriver.chrome.driver", "src/test/resources/drivers/chromedriver.exe");
 			}
 			driver = new ChromeDriver();
+			
 		} else if (browserName.equalsIgnoreCase("firefox")) {
 			if (Constants.osName.contains("Mac")) {
 				System.setProperty("webdriver.gecko.driver", "src/test/resources/drivers/geckodriver");
