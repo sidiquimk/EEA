@@ -13,7 +13,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 7179904167,
+  "duration": 6821645904,
   "status": "passed"
 });
 formatter.background({
@@ -37,14 +37,14 @@ formatter.match({
   "location": "AddEntitlementsSteps.i_logged_into_OrangeHRM()"
 });
 formatter.result({
-  "duration": 6853658826,
+  "duration": 6782123261,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginPageSteps.orangehrm_logo_is_displayed()"
 });
 formatter.result({
-  "duration": 136956197,
+  "duration": 166690045,
   "status": "passed"
 });
 formatter.scenario({
@@ -79,15 +79,15 @@ formatter.match({
   "location": "AddEntitlementsSteps.i_click_Leave_Module_and_click_add_Entitlements()"
 });
 formatter.result({
-  "duration": 1292736481,
-  "error_message": "org.openqa.selenium.WebDriverException: unknown error: Element is not clickable at point (-9890, 188)\n  (Session info: chrome\u003d71.0.3578.98)\n  (Driver info: chromedriver\u003d2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform\u003dWindows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: \u00273.14.0\u0027, revision: \u0027aacccce0\u0027, time: \u00272018-08-02T20:19:58.91Z\u0027\nSystem info: host: \u0027DESKTOP-IQ4P7H3\u0027, ip: \u0027192.168.115.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_171\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\\Users\\MASOOD~1\\AppData\\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:54203}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}\nSession ID: 91b4fd5aafea6c881938546e78b043a8\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)\r\n\tat com.syntax.utils.CommonMethods.clickLink(CommonMethods.java:36)\r\n\tat com.syntax.stepDefinitions.AddEntitlementsSteps.i_click_Leave_Module_and_click_add_Entitlements(AddEntitlementsSteps.java:39)\r\n\tat ✽.When I click Leave Module and click add Entitlements(src/test/resources/features/Entitlements.feature:9)\r\n",
-  "status": "failed"
+  "duration": 6529732465,
+  "status": "passed"
 });
 formatter.match({
   "location": "AddEntitlementsSteps.add_all_default_employees_to_FMLA_US_leave_type()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 6401242585,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -99,20 +99,22 @@ formatter.match({
   "location": "AddEntitlementsSteps.i_Enter_Entitlement(int)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 309929103,
+  "status": "passed"
 });
 formatter.match({
   "location": "AddEntitlementsSteps.i_Confirm_that_all_default_employees_have_new_Entitlements_added_for_FMLA_US()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 6345476011,
+  "status": "passed"
 });
 formatter.after({
-  "duration": 699193118,
+  "duration": 799349468,
   "status": "passed"
 });
 formatter.before({
-  "duration": 4865716816,
+  "duration": 4876616303,
   "status": "passed"
 });
 formatter.background({
@@ -136,14 +138,14 @@ formatter.match({
   "location": "AddEntitlementsSteps.i_logged_into_OrangeHRM()"
 });
 formatter.result({
-  "duration": 6731298499,
+  "duration": 6772602360,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginPageSteps.orangehrm_logo_is_displayed()"
 });
 formatter.result({
-  "duration": 168256315,
+  "duration": 94978255,
   "status": "passed"
 });
 formatter.scenario({
@@ -184,7 +186,7 @@ formatter.match({
   "location": "AddEntitlementsSteps.i_click_Leave_Module_and_click_add_Entitlements()"
 });
 formatter.result({
-  "duration": 6650916509,
+  "duration": 6647709685,
   "status": "passed"
 });
 formatter.match({
@@ -197,7 +199,7 @@ formatter.match({
   "location": "AddEntitlementsSteps.add_default_employees_to_any_leave_type_besides_FMLA_US_leave_type(int)"
 });
 formatter.result({
-  "duration": 885412942,
+  "duration": 881431280,
   "status": "passed"
 });
 formatter.match({
@@ -210,22 +212,22 @@ formatter.match({
   "location": "AddEntitlementsSteps.i_Enter_Entitlement(int)"
 });
 formatter.result({
-  "duration": 257681106,
+  "duration": 103304696,
   "status": "passed"
 });
 formatter.match({
   "location": "AddEntitlementsSteps.i_Confirm_that_particular_default_employee_has_new_Entitlements_added_for_new_Leave_Type()"
 });
 formatter.result({
-  "duration": 5012037839,
+  "duration": 5000586364,
   "status": "passed"
 });
 formatter.after({
-  "duration": 797315767,
+  "duration": 802854216,
   "status": "passed"
 });
 formatter.before({
-  "duration": 4814798805,
+  "duration": 4706218417,
   "status": "passed"
 });
 formatter.background({
@@ -249,14 +251,14 @@ formatter.match({
   "location": "AddEntitlementsSteps.i_logged_into_OrangeHRM()"
 });
 formatter.result({
-  "duration": 6556442037,
+  "duration": 6627938881,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginPageSteps.orangehrm_logo_is_displayed()"
 });
 formatter.result({
-  "duration": 119671510,
+  "duration": 183007073,
   "status": "passed"
 });
 formatter.scenario({
@@ -312,16 +314,560 @@ formatter.match({
   "location": "AssignLeaveSteps.i_click_Leave_Module_and_click_Assign_Leave()"
 });
 formatter.result({
-  "duration": 1562538797,
+  "duration": 1940276657,
   "status": "passed"
 });
 formatter.match({
   "location": "AssignLeaveSteps.i_enter_any_one_of_the_default_employee_names()"
 });
 formatter.result({
-  "duration": 341577721,
+  "duration": 354684369,
   "status": "passed"
 });
 formatter.match({
   "location": "AssignLeaveSteps.i_select_FMLA_US()"
+});
+formatter.result({
+  "duration": 5210336199,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "50",
+      "offset": 11
+    }
+  ],
+  "location": "AssignLeaveSteps.balance_of_should_be_present_for_employee(int)"
+});
+formatter.result({
+  "duration": 144030096,
+  "status": "passed"
+});
+formatter.match({
+  "location": "AssignLeaveSteps.i_select_From_Date()"
+});
+formatter.result({
+  "duration": 2592163985,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "50",
+      "offset": 38
+    }
+  ],
+  "location": "AssignLeaveSteps.i_select_To_Date_that_does_not_exceed_days(int)"
+});
+formatter.result({
+  "duration": 7950950134,
+  "status": "passed"
+});
+formatter.match({
+  "location": "AssignLeaveSteps.i_should_see_that_the_leave_balance_has_changed_based_on_how_many_days_that_was_taken()"
+});
+formatter.result({
+  "duration": 88718704,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 907569108,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 4852303947,
+  "status": "passed"
+});
+formatter.background({
+  "line": 4,
+  "name": "",
+  "description": "",
+  "type": "background",
+  "keyword": "Background"
+});
+formatter.step({
+  "line": 5,
+  "name": "I logged into OrangeHRM",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 6,
+  "name": "OrangeHRM logo is displayed",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "AddEntitlementsSteps.i_logged_into_OrangeHRM()"
+});
+formatter.result({
+  "duration": 6605494275,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LoginPageSteps.orangehrm_logo_is_displayed()"
+});
+formatter.result({
+  "duration": 141467719,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 32,
+  "name": "Leave Type for unique employee",
+  "description": "",
+  "id": "add-entitlements;leave-type-for-unique-employee",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 33,
+  "name": "I click Leave Module and click Assign Leave",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 34,
+  "name": "I enter the unique default employee name who was chosen for a different Leave Type",
+  "keyword": "And "
+});
+formatter.step({
+  "comments": [
+    {
+      "line": 35,
+      "value": "#this is what i entered \"Russel Hamilton\"); \"Vacation US\");"
+    }
+  ],
+  "line": 36,
+  "name": "I select any Leave Type",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 37,
+  "name": "Balance of 50 should be present for employee",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 38,
+  "name": "I select From Date",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 39,
+  "name": "I select To Date that does not exceed 50 days",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 40,
+  "name": "I should see that the leave balance has changed based on how many days that was taken",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "AssignLeaveSteps.i_click_Leave_Module_and_click_Assign_Leave()"
+});
+formatter.result({
+  "duration": 1540443084,
+  "status": "passed"
+});
+formatter.match({
+  "location": "AssignLeaveSteps.i_enter_the_unique_default_employee_name_who_was_chosen_for_a_different_Leave_Type()"
+});
+formatter.result({
+  "duration": 319210558,
+  "status": "passed"
+});
+formatter.match({
+  "location": "AssignLeaveSteps.i_select_any_Leave_Type()"
+});
+formatter.result({
+  "duration": 1148875102,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "50",
+      "offset": 11
+    }
+  ],
+  "location": "AssignLeaveSteps.balance_of_should_be_present_for_employee(int)"
+});
+formatter.result({
+  "duration": 82512892,
+  "status": "passed"
+});
+formatter.match({
+  "location": "AssignLeaveSteps.i_select_From_Date()"
+});
+formatter.result({
+  "duration": 2338347190,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "50",
+      "offset": 38
+    }
+  ],
+  "location": "AssignLeaveSteps.i_select_To_Date_that_does_not_exceed_days(int)"
+});
+formatter.result({
+  "duration": 7688369889,
+  "status": "passed"
+});
+formatter.match({
+  "location": "AssignLeaveSteps.i_should_see_that_the_leave_balance_has_changed_based_on_how_many_days_that_was_taken()"
+});
+formatter.result({
+  "duration": 36057409,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 765638699,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 4740699677,
+  "status": "passed"
+});
+formatter.background({
+  "line": 4,
+  "name": "",
+  "description": "",
+  "type": "background",
+  "keyword": "Background"
+});
+formatter.step({
+  "line": 5,
+  "name": "I logged into OrangeHRM",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 6,
+  "name": "OrangeHRM logo is displayed",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "AddEntitlementsSteps.i_logged_into_OrangeHRM()"
+});
+formatter.result({
+  "duration": 6594439503,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LoginPageSteps.orangehrm_logo_is_displayed()"
+});
+formatter.result({
+  "duration": 100070609,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 42,
+  "name": "Leave List",
+  "description": "",
+  "id": "add-entitlements;leave-list",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 43,
+  "name": "I click Leave Module and click Leave List",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 44,
+  "name": "I select From Date that matches the assign leave to default employee",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 45,
+  "name": "I select To Date that matches the assign leave to default employee",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 46,
+  "name": "I select on All from show leave with the status",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 47,
+  "name": "I enter the default employee name",
+  "keyword": "And "
+});
+formatter.step({
+  "comments": [
+    {
+      "line": 48,
+      "value": "#this is what i entered \"Russel Hamilton\""
+    }
+  ],
+  "line": 49,
+  "name": "I select Sub Unit that matches the default employee credentials",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 50,
+  "name": "Click Search",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 51,
+  "name": "Verify that default employee name appears",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 52,
+  "name": "Verify leave type displayed as FMLA US",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 53,
+  "name": "Verify Number of days matches the amount of assigned leave given for default employee",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "LeaveListSteps.i_click_Leave_Module_and_click_Leave_List()"
+});
+formatter.result({
+  "duration": 2352451526,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LeaveListSteps.i_select_From_Date_that_matches_the_assign_leave_to_default_employee()"
+});
+formatter.result({
+  "duration": 2426661288,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LeaveListSteps.i_select_To_Date_that_matches_the_assign_leave_to_default_employee()"
+});
+formatter.result({
+  "duration": 3311618652,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LeaveListSteps.i_select_on_All_from_show_leave_with_the_status()"
+});
+formatter.result({
+  "duration": 5362718419,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LeaveListSteps.i_enter_the_default_employee_name()"
+});
+formatter.result({
+  "duration": 2499774187,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LeaveListSteps.i_select_Sub_Unit_that_matches_the_default_employee_credentials()"
+});
+formatter.result({
+  "duration": 2344765579,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LeaveListSteps.click_Search()"
+});
+formatter.result({
+  "duration": 5034712012,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LeaveListSteps.verify_that_default_employee_name_appears()"
+});
+formatter.result({
+  "duration": 2160400466,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LeaveListSteps.verify_leave_type_displayed_as_FMLA_US()"
+});
+formatter.result({
+  "duration": 2156038300,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LeaveListSteps.verify_Number_of_days_matches_the_amount_of_assigned_leave_given_for_default_employee()"
+});
+formatter.result({
+  "duration": 2078042067,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 843496244,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 4570547558,
+  "status": "passed"
+});
+formatter.background({
+  "line": 4,
+  "name": "",
+  "description": "",
+  "type": "background",
+  "keyword": "Background"
+});
+formatter.step({
+  "line": 5,
+  "name": "I logged into OrangeHRM",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 6,
+  "name": "OrangeHRM logo is displayed",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "AddEntitlementsSteps.i_logged_into_OrangeHRM()"
+});
+formatter.result({
+  "duration": 6672289145,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LoginPageSteps.orangehrm_logo_is_displayed()"
+});
+formatter.result({
+  "duration": 85456959,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 55,
+  "name": "LeaveList2",
+  "description": "",
+  "id": "add-entitlements;leavelist2",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 56,
+  "name": "I click Leave Module and click Leave List",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 57,
+  "name": "I select From Date that matches the assign leave to Unique default employee",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 58,
+  "name": "I select To Date that matches the assign leave to Unique default employee",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 59,
+  "name": "I select on All from show leave with the status",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 60,
+  "name": "I enter the Unique default employee name",
+  "keyword": "And "
+});
+formatter.step({
+  "comments": [
+    {
+      "line": 61,
+      "value": "# this is what i entered: Russel Hamilton\""
+    }
+  ],
+  "line": 62,
+  "name": "I select Sub Unit that matches the Unique default employee credentials",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 63,
+  "name": "Click Search",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 64,
+  "name": "Verify that Unique default employee name appears",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 65,
+  "name": "Verify leave type displays as the given Leave Type Assigned Unique default employee",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 66,
+  "name": "Verify Number of days matches the amount of assigned leave given for Unique default employee",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "LeaveListSteps.i_click_Leave_Module_and_click_Leave_List()"
+});
+formatter.result({
+  "duration": 2295224179,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LeaveList2Steps.i_select_From_Date_that_matches_the_assign_leave_to_Unique_default_employee()"
+});
+formatter.result({
+  "duration": 2480774664,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LeaveList2Steps.i_select_To_Date_that_matches_the_assign_leave_to_Unique_default_employee()"
+});
+formatter.result({
+  "duration": 3361846382,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LeaveListSteps.i_select_on_All_from_show_leave_with_the_status()"
+});
+formatter.result({
+  "duration": 5514483062,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LeaveList2Steps.i_enter_the_Unique_default_employee_name()"
+});
+formatter.result({
+  "duration": 2351291442,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LeaveList2Steps.i_select_Sub_Unit_that_matches_the_Unique_default_employee_credentials()"
+});
+formatter.result({
+  "duration": 2278027210,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LeaveListSteps.click_Search()"
+});
+formatter.result({
+  "duration": 5000111820,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LeaveList2Steps.verify_that_Unique_default_employee_name_appears()"
+});
+formatter.result({
+  "duration": 2122387195,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LeaveList2Steps.verify_leave_type_displays_as_the_given_Leave_Type_Assigned_Unique_default_employee()"
+});
+formatter.result({
+  "duration": 2108809164,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LeaveList2Steps.verify_Number_of_days_matches_the_amount_of_assigned_leave_given_for_Unique_default_employee()"
+});
+formatter.result({
+  "duration": 2128063147,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 784098089,
+  "status": "passed"
+});
 });
