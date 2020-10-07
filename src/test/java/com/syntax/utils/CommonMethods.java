@@ -11,7 +11,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class CommonMethods extends BaseClass {
 
 	public static void enterValue(WebElement element, String value) {
-		//element.clear();
+		// element.clear();
 		element.sendKeys(value);
 	}
 
@@ -24,25 +24,25 @@ public class CommonMethods extends BaseClass {
 		WebElement elm = waiting(element);
 		elm.click();
 	}
-	
-	//Author: Masood Sidiqui
-	public static void selectValue(WebElement element, String visibleText){
+
+	// Author: Masood Sidiqui
+	public static void selectValue(WebElement element, String visibleText) {
 		Select select = new Select(element);
 		select.selectByVisibleText(visibleText);
 	}
-	
-	//Author: Masood Sidiqui
-	public static void clickLink(WebElement element, String linkText){
+
+	// Author: Masood Sidiqui
+	public static void clickLink(WebElement element, String linkText) {
 		driver.findElement(By.linkText(linkText)).click();
 	}
-	
-	//Author: Masood Sidiqui
+
+	// Author: Masood Sidiqui
 	public static Object isDisplayed(WebElement element) {
 		boolean balance = driver.findElement(By.id("assignleave_leaveBalance")).isDisplayed();
 		return balance;
 	}
 
-	//Author: Masood Sidiqui
+	// Author: Masood Sidiqui
 	public static void date(WebElement element, String selectMonth, String selectYear, String selectDate) {
 		WebElement month = driver.findElement(By.xpath("//select[@class='ui-datepicker-month']"));
 		Select select = new Select(month);
@@ -60,5 +60,18 @@ public class CommonMethods extends BaseClass {
 			}
 		}
 
+	}
+	
+	public static void verificationMethod (WebElement element, String name, String elementXpath){
+		
+		List<WebElement> customers = driver.findElements(By.xpath(elementXpath));
+		for (WebElement customer : customers) {
+			String value = customer.getText();
+			if(value.equalsIgnoreCase(name)){
+				System.out.println("This is the verification proof: " + value);
+				
+			}
+			
+		}
 	}
 }

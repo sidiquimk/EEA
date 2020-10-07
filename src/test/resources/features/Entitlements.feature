@@ -1,4 +1,5 @@
 #Author: Masood Sidiqui
+@Entitlements
 Feature: Add entitlements
 
 Background:
